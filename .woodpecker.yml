@@ -1,0 +1,5 @@
+pipeline:
+  build:
+    image: openjdk:8-jdk-alpine
+    commands:
+      - echo "This is the build step."
